@@ -18,3 +18,33 @@ A lightweight, no-database to-do list app built with plain HTML, CSS, and JavaSc
 1. Download `smart_todo.html`
 2. Open it directly in any modern browser (Chrome, Edge, Firefox)
 3. No installation, server, or build step required
+
+## How to Use
+
+1. Type a task in the input box
+2. Select a priority, optionally set a due date/time and a repeat frequency
+3. Click **Add Task** (or press Enter)
+4. Check the box to mark a task complete
+5. Drag tasks to reorder them
+6. Use the filter buttons to view specific task groups
+7. Click **Enable** near the top to turn on due-time browser notifications
+
+## Tech Stack
+
+- HTML5
+- CSS3 (no frameworks)
+- Vanilla JavaScript (no libraries)
+- Browser `localStorage` API for persistence
+- Browser `Notification` API for reminders
+
+## File Structure
+
+```
+smart_todo.html   # Single-file app (HTML + CSS + JS)
+README.md         # This file
+```
+
+## Notes
+
+- Notifications only fire while the browser tab is open and the page is loaded (there's no service worker/background sync).
+- Since there's no database or server, all data is local to the browser/device it was created on — it won't sync across devices.
