@@ -12,3 +12,9 @@ A lightweight, no-database to-do list app built with plain HTML, CSS, and JavaSc
 - **Drag-and-drop reordering** — rearrange tasks in any order
 - **Filters** — view All, Active, Completed, or High Priority tasks
 - **Persistent storage** — tasks are saved in `localStorage` and remain after closing/reopening the browser
+
+## How to Run
+
+1. Download `smart_todo.html`
+2. Open it directly in any modern browser (Chrome, Edge, Firefox)
+3. No installation, server, or build step required
