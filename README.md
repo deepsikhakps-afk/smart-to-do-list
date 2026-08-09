@@ -36,12 +36,14 @@ A lightweight, no-database to-do list app built with plain HTML, CSS, and JavaSc
 - Vanilla JavaScript (no libraries)
 - Browser `localStorage` API for persistence
 - Browser `Notification` API for reminders
+Screenshots
 
 ## File Structure
 
 ```
 smart_todo.html   # Single-file app (HTML + CSS + JS)
 README.md         # This file
+
 ```
 
 ## Notes
