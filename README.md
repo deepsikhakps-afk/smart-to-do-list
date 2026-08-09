@@ -45,7 +45,7 @@ Screenshots
 ```
 smart_todo.html   # Single-file app (HTML + CSS + JS)
 README.md         # This file
-
+image.png
 ```
 
 ## Notes
